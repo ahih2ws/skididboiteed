@@ -178,7 +178,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Hai
 AddButton(Tab1o, {
      Name = "xeter",
     Callback = function()
-getgenv().Version = "V1"
+getgenv().Version = "V2"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
  end
   })
@@ -195,7 +195,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/Mons
 AddButton(Tab1o, {
      Name = "min gaming ",
     Callback = function()
-getgenv().Version = "V1"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinN"))()
  end
   })
